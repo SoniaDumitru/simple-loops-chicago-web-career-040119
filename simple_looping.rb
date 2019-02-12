@@ -39,6 +39,7 @@ def until_iterator(number_of_times)
   counter = 0
   until number_of_times == counter
   puts phrase = "Welcome to Flatiron School's Web Development Course!"
+  counter += 1
 end
 
 def for_iterator(number_of_times)
